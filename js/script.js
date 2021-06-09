@@ -1,4 +1,7 @@
-
+jQuery(document).ready(function(){
+	jQuery(".filtering-content").mixItUp({	
+	});   
+});
 $('.port_slider').slick({
     infinite: true,
     slidesToShow: 1,
@@ -9,4 +12,3 @@ $('.port_slider').slick({
     prevArrow: '<i class="fa fa-chevron-left prev"></i>',
     nextArrow: '<i class="fa fa-chevron-right next"></i>',
   });
-  

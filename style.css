@@ -47,15 +47,37 @@ body {
 .mt-15 {
     margin-top: 15px;
 }
-
-/* *********************************Gallery START********************************** */
-
-.mix{
+/* **********************MixItUp********************* */
+.tab_part img{
+	width: 50%;
+}
+.tab_part .mix{
 	display: none;
 }
-.work{
-	padding: 100px 0;
+.tab_part{
+	padding: 50px 0;
 }
+.col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    margin-top: 160px;
+}
+.header-area h5{
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #5fb759;
+	text-transform: uppercase;
+}
+.header-area h2{
+	font-family: "Raleway", sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+	color: #212529;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
 .filters ul {
 	padding: 0;
 	list-style: none;
